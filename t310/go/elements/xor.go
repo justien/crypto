@@ -3,19 +3,10 @@ package elements
 import "fmt"
 
 /*
-func xor(input1 []int, input2 []int) []int {
 
-var output_slice []int
+xor() takes two integer slices as input, performs a bit-wise XOR of their
+elements, and emits a new slice composed of this bitwise operation.
 
-let n be the length of input1
-for i from 0 to n {
-    a is the nth element of input1
-    b is the nth element of input2
-    c is a XOR b
-    output_slice = append(output_slice, c)
-  }
-    return output_slice
-}
 */
 
 func xor(input1 []int, input2 []int) []int {
@@ -42,6 +33,23 @@ func xor(input1 []int, input2 []int) []int {
 
 	return output_slice
 }
+
+/*
+PSEUDOCODE
+func xor(input1 []int, input2 []int) []int {
+
+var output_slice []int
+
+let n be the length of input1
+for i from 0 to n {
+    a is the nth element of input1
+    b is the nth element of input2
+    c is a XOR b
+    output_slice = append(output_slice, c)
+  }
+    return output_slice
+}
+*/
 
 /*
 for i := range a {
