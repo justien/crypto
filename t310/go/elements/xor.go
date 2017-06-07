@@ -1,4 +1,4 @@
-package xor
+package elements
 
 import "fmt"
 
